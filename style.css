@@ -1,0 +1,133 @@
+html{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 16px;
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFAD69;
+    font-family: monospace;
+}
+
+
+.homeTitulo1{
+    background-color: #4E937A;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    display: grid;
+    
+    
+    height: 250px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 2px solid rgb(22, 58, 219);
+}
+
+.tituloReceita{
+    font-size: 2rem;
+    text-align: center;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+a.linkRecipe{
+    text-decoration: none;
+    color: black;
+    display: grid;
+    vertical-align: middle;
+    font-size: 1rem;
+
+    padding: 2px;
+    margin: 2px;
+}
+
+.listaHome{
+    background-color:#D0FCB3;
+    border: 2px white solid;
+    margin: auto;
+    width: 650px;
+}
+
+ul.recipelist{
+    height: auto;
+    width: 600px;
+    margin: auto;
+}
+
+.linkRecipe{ 
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #4E937A;
+
+
+}
+
+
+/* Paginas das Receitas */
+
+
+.recipeImagemPrincipal{
+    margin: 20px auto;
+    display: flex;
+}
+
+.h1Recipe{
+    background-color: #4E937A;
+    text-align: center;
+    color: white;
+}
+
+.cartaoRecipe{
+
+    width: 1400px;
+    margin: 10px auto;
+}
+.descricao, .ingredientes, .modoDePreparo{
+    background-color: #72c4a6;
+    padding: 10px;
+    margin: 10px 20px;
+
+
+}
+
+.descricao h2, .ingredientes h3, .modoDePreparo h3{
+    padding: 8px;
+}
+
+.descricao p, .ingredientes ul, .modoDePreparo ol{
+    background-color: #C7F2A7;
+    padding: 2px;
+    margin: 2px 20px;
+}
+
+.ingredientes ul, .modoDePreparo ol{
+    margin: 2px 20px;
+}
+
+li{
+    margin-left: 30px;
+    margin-top: 4px
+
+}
+
+ol li{
+    margin-left: 45px;
+    margin-top: 4px
+
+}
+
