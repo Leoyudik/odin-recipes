@@ -29,7 +29,7 @@ body {
     
     
     height: 250px;
-    width: 800px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 40px;
     border: 2px solid rgb(22, 58, 219);
@@ -58,7 +58,7 @@ a.linkRecipe{
     background-color:#D0FCB3;
     border: 2px white solid;
     margin: auto;
-    width: 650px;
+    max-width: 650px;
 }
 
 ul.recipelist{
@@ -84,6 +84,7 @@ ul.recipelist{
 .recipeImagemPrincipal{
     margin: 20px auto;
     display: flex;
+    max-width: 1200px;
 }
 
 .h1Recipe{
@@ -94,7 +95,7 @@ ul.recipelist{
 
 .cartaoRecipe{
 
-    width: 1400px;
+    max-width: 1400px;
     margin: 10px auto;
 }
 .descricao, .ingredientes, .modoDePreparo{
@@ -130,4 +131,6 @@ ol li{
     margin-top: 4px
 
 }
+
+
 
